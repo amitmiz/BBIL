@@ -1,0 +1,30 @@
+@font-face {
+	font-family: opensans;
+	src: url("opensanshebrew.ttf");
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'opensans', sans-serif;
+	direction: rtl;
+	font-size: 22px;
+	background: linear-gradient(#ebebeb, #c1bfbf);
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+}
+
+#policyContainer {
+	padding: 50px;
+}
+
+#policyContainer li {
+	padding: 5px;
+}
