@@ -1,0 +1,292 @@
+@font-face {
+	font-family: opensans;
+	src: url("opensanshebrew.ttf");
+}
+
+body,
+ul,
+li,
+table,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: black;
+}
+
+body {
+	font-family: 'opensans', sans-serif;
+	box-sizing: border-box;
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+/*----- Navbar ----*/
+
+#navbar {
+	background-color: transparent;
+	position: relative;
+	z-index: 10;
+	transition: box-shadow 0.5s;
+	height: 80px;
+	top: 0;
+	padding: 10px;
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, .15);
+	transition: height 0.5s, padding 0.5s, background 0.5s;
+	color: white;
+	direction: rtl;
+}
+
+#navbarList {
+	text-align: center;
+	font-size: 2rem;
+}
+
+#navbar li {
+	display: inline-block;
+}
+
+#navbarList li {
+	padding: 10px;
+	margin: 10px;
+}
+
+#navbarList a {
+	position: relative;
+	text-decoration: none;
+}
+
+
+
+#navbar a {
+	color: white!important;
+}
+
+#navToggle {
+	display: none;
+}
+
+/* End Navbar*/
+
+.toggleLine {
+	background-color: #555555;
+	width: 25px;
+	height: 3px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	transition: margin 0.1s;
+}
+
+
+.heading {
+	font-size: 60px;
+	text-align: center;
+}
+
+.line {
+	width: 50px;
+	height: 1px;
+	padding: 3px;
+	background-color: black;
+	margin: 10px auto;
+}
+
+
+.form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+
+
+footer {
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	color: white;
+	background: black;
+	position: relative;
+}
+
+footer h2 {
+	margin-bottom: 20px;
+}
+
+footer a {
+	color: white!important;
+}
+
+
+#navbarConatiner {
+	height: 70px;
+}
+
+#phoneFirstBlock {
+	background-image: url(3.jpg);
+	height: 200px;
+	background-size: cover;
+	position: relative;
+}
+
+#coverText {
+	position: absolute;
+	bottom: 10%;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: lighter;
+	font-size: 22px;
+	color: white;
+}
+
+#logo {
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	font-weight: bolder;
+}
+
+#belowNav {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#contactUsList {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	#navbar {
+		position: relative!important;
+		box-shadow: none!important;
+		width: 100%;
+		height: auto;
+		min-height: 55px;
+		padding: 0;
+	}
+	#navbarList {
+		display: none;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		background-color: black;
+		width: 100%;
+	}
+	#navbarList > li {
+		display: block;
+		font-size: 18px;
+		font-weight: bolder;
+	}
+	#navToggle {
+		display: inline;
+		position: relative;
+		right: 25px;
+		padding: 9px 10px;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		height: 40px;
+		margin-top: 7px;
+		margin-bottom: 10px;
+	}
+	#navToggle:hover {
+		background-color: #ddd;
+	}
+	#navToggle:focus {
+		outline: 0;
+	}
+	#videoText {
+		font-size: 15px;
+	}
+	#videoText h1 {
+		font-size: 20px;
+		font-size: 8vw;
+	}
+	#videoText h2 {
+		font-size: 15px;
+		font-size: 3vw;
+	}
+	.aboutThing {
+		padding: 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#videoControl {
+		bottom: 5%;
+	}
+	#contactUsList,
+	#contactUsList a {
+		color: black!important;
+	}
+	#videoText {
+		top: 25%;
+	}
+	#videoBuyButton {
+		width: 25%;
+	}
+	footer {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	#navbar {
+		color: white;
+		background-color: black;
+		border-bottom: 1px solid rgba(144, 144, 144, 0.15);
+	}
+	#navbarList {
+		display: block!important;
+	}
+	#navbarList a:after {
+		width: 0;
+		left: 0;
+		bottom: 0;
+		position: absolute;
+		content: " ";
+		border-bottom: 2px solid white;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+		transition-delay: 0.1s;
+	}
+	#navbarList a:hover:after {
+		width: 120%;
+	}
+	#navbar.past {
+		background-color: black;
+		padding: 0;
+		height: 60px;
+	}
+}
+
+#copyright {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #1A1A1A;
+}
