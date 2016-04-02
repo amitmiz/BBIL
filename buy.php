@@ -8,7 +8,7 @@
 
 <body>
 	<?php include("navbar.php"); ?>
-		<div id="belowNav">
+		<div class="belowNav">
 			<div id="buy" class="container">
 				<header>
 					<h1 class="heading">השכרה</h1>

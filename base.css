@@ -41,7 +41,7 @@ ul {
 
 #navbar {
 	background-color: transparent;
-	position: relative;
+	position: fixed;
 	z-index: 10;
 	transition: box-shadow 0.5s;
 	height: 80px;
@@ -165,7 +165,7 @@ footer a {
 	font-weight: bolder;
 }
 
-#belowNav {
+.belowNav {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -281,6 +281,10 @@ footer a {
 		background-color: black;
 		padding: 0;
 		height: 60px;
+	}
+	
+	.belowNav {
+		margin-top: 50px;
 	}
 }
 
