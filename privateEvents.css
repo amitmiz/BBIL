@@ -1,0 +1,84 @@
+body {
+	font-size: 22px;
+}
+
+h1 {
+	font-size: 45px
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.privateItem p {
+	font-size: 25px;
+}
+
+.privateItem img {
+	display: block;
+	margin: 0 auto;
+}
+
+#popcorn {
+	background: linear-gradient(white, #FFE1E1, #F53F3F);
+}
+
+#popcorn img {
+	width: 350px;
+	height: 550px;
+}
+
+#popcorn p {
+	margin-top: 275px;
+}
+
+#candyCotton img {
+	width: 450px;
+	height: 350px;
+}
+
+#candyCotton p {
+	direction: ltr;
+	margin-top: 175px;
+}
+
+#candyCotton {
+	/* Old browsers */
+	background: -moz-linear-gradient(left, white, white, #BBEF75);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, white, white, #BBEF75);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to left, white, white, #BBEF75);
+}
+
+#hotDog {
+	background: rgb(73, 155, 234);
+	/* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+#hotDog p {
+	margin-top: 150px;
+}
+
+#hotDog img {
+	width: 300px;
+	height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+	.privateItem p {
+		margin: 0 !important;
+		text-align: center;
+	}
+	.privateItem img {
+		width: 90% !important;
+	}
+}

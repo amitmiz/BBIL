@@ -6,11 +6,10 @@
 	</button>
 	<!--		<span id="logo" class="visible-xs-inline"><h4>Bubble Ball Israel</h4></span>-->
 	<ul id="navbarList" class="clearfix">
-		<li><a href="./index.php#about">אודות</a></li>
-		<li><a href="./index.php#theGame">המשחק</a></li>
-		<li><a href="./index.php#faq">שאלות ותשובות</a></li>
-		<li><a href="./index.php#gallery">גלריה</a></li>
+		<li><a href="./index.php">דף הבית</a></li>
+		<li><a href="./pricing.php">מחירון</a></li>
 		<li><a href="./buy.php">השכרה</a></li>
+		<li><a href="./privateEvents.php">אירועים פרטיים</a></li>
 	</ul>
 	<ul id="contactUsList">
 		<li>מצא אותנו ב:</li>

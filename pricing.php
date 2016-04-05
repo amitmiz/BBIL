@@ -8,21 +8,24 @@
 
 <body>
 	<?php include("navbar.php") ?>
-		<div class="container belowNav">
+		<div dir="rtl" class="container belowNav">
 			<div class="row">
 				<div class="col-sm-4">
 					<div id="basic" class="pricingCard">
 						<div class="pricingHour">Basic</div>
 						<div class="pricingPrice">
-							<span>800&#8362;</span>
-							<div> 400&#8362; לשעה</div>
+							<span>1000&#8362;</span>
+							<div> 500&#8362; לשעה</div>
 						</div>
 						<div class="description">
 							<ul>
-								<li>
-									השכרה לשעתיים
-								</li>
+								<li><strong>השכרה לשעתיים</strong></li>
 								<li>10 כדורים</li>
+								<li>2 שערים</li>
+								<li>2 כדורי כדוררגל</li>
+								<li>קונוסים</li>
+								<li>גופיות להבדלה בין הקבוצות</li>
+
 							</ul>
 
 						</div>
@@ -36,14 +39,17 @@
 					<div id="starter" class="pricingCard">
 						<div class="pricingHour">Starter</div>
 						<div class="pricingPrice">
-							<span>530&#8362;</span>
+							<span>600&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
-								<li>
-									השכרה לשעה
-								</li>
+								<li><strong>השכרה לשעה</strong></li>
 								<li>10 כדורים</li>
+								<li>2 שערים</li>
+								<li>2 כדורי כדוררגל</li>
+								<li>קונוסים</li>
+								<li>גופיות להבדלה בין הקבוצות</li>
+
 							</ul>
 
 						</div>
@@ -57,15 +63,17 @@
 					<div id="pro" class="pricingCard">
 						<div class="pricingHour">Pro</div>
 						<div class="pricingPrice">
-							<span>1100&#8362;</span>
-							<div> 366&#8362; לשעה</div>
+							<span>1300&#8362;</span>
+							<div> 433&#8362; לשעה</div>
 						</div>
 						<div class="description">
 							<ul>
-								<li>
-									השכרה לשלוש שעות
-								</li>
+								<li><strong>השכרה לשלוש שעות</strong></li>
 								<li>10 כדורים</li>
+								<li>2 שערים</li>
+								<li>2 כדורי כדוררגל</li>
+								<li>קונוסים</li>
+								<li>גופיות להבדלה בין הקבוצות</li>
 							</ul>
 
 						</div>
@@ -75,6 +83,16 @@
 					</div>
 
 				</div>
+			</div>
+			<div id="moreInfo">
+				<h2>הערות:</h2>
+				<ul>
+					<li>המחירים כוללים מע"מ</li>
+					<li>המחירים נכונים למגרש הבית שלנו - "ספורט כיף ראשון לציון", מיקום אחר כרוך בתוספת תשלום</li>
+					<li>ההשכרה כוללת מפעיל מטעמנו שיוודא את ביטחונכם לאורך הפעילות</li>
+					<li>במידה ויש צורך להשכיר למספר שעות שלא באפשרויות המוצגות, נא ליצור קשר</li>
+					<li>ט.ל.ח</li>
+				</ul>
 			</div>
 
 		</div>

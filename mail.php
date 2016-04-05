@@ -1,14 +1,22 @@
 <?php 
+header('Content-Type: text/html; charset=utf-8');
+
+$to = "amitamitamit123@gmail.com";
+
 $name = $_POST['name'];
 $city = $_POST['city'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
-$datetime = $_POST['datetime'];
+$datetime = $_POST['date'];
 $location = $_POST['location'];
-$to = "amitamitamit123@gmail.com";
-$body = "From: $name\n E-Mail: $email\n Message:\n $city $phone $location";
-mail($to,"wanna buy",$body);
+$moreInfo = $_POST['more'];
 
+$body = "From: $name\n E-Mail: $email\n Message:\n עיר:$city\n מספר:$phone\n תאריך:$datetime\n מיקום: $location\n הערות:$moreInfo";
+if (@mail($to,"השכרה",$body)) {
+	echo "פרטיך נשלחו אלינו בהצלחה, נחזור אליך בהקדם האפשרי";
+} else {
+	echo "שגיאה, אנא נסה מאוחר יותר";
+}
 
 
 ?>

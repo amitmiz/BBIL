@@ -39,7 +39,7 @@
 							</div>
 							<div class="form-group">
 								<label>מיקום האירוע</label>
-								<select class="form-control" required>
+								<select name="location" class="form-control" required>
 									<option value="דשא">דשא</option>
 									<option value="דשא סינטטי">דשא סינטטי</option>
 									<option value="פרקט">פרקט</option>
@@ -48,7 +48,7 @@
 							</div>
 							<div class="form-group">
 								<label>הערות</label>
-								<textarea class="form-control"></textarea>
+								<textarea name="more" class="form-control"></textarea>
 							</div>
 							<button type="submit" class="btn btn-success">שלח</button>
 						</form>

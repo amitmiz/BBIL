@@ -37,6 +37,7 @@ ul {
 	list-style: none;
 }
 
+
 /*----- Navbar ----*/
 
 #navbar {
@@ -73,8 +74,6 @@ ul {
 	text-decoration: none;
 }
 
-
-
 #navbar a {
 	color: white!important;
 }
@@ -82,6 +81,7 @@ ul {
 #navToggle {
 	display: none;
 }
+
 
 /* End Navbar*/
 
@@ -93,7 +93,6 @@ ul {
 	margin-bottom: 4px;
 	transition: margin 0.1s;
 }
-
 
 .heading {
 	font-size: 60px;
@@ -108,13 +107,10 @@ ul {
 	margin: 10px auto;
 }
 
-
 .form-control:focus {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-
-
 
 footer {
 	text-align: center;
@@ -133,7 +129,6 @@ footer h2 {
 footer a {
 	color: white!important;
 }
-
 
 #navbarConatiner {
 	height: 70px;
@@ -167,15 +162,17 @@ footer a {
 
 .belowNav {
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
-
 
 #contactUsList {
 	position: absolute;
 	left: 10px;
 	top: 20px;
 	font-size: 2rem;
+}
+
+#contactUsList i {
+	margin: 2px;
 }
 
 @media screen and (max-width: 768px) {
@@ -282,7 +279,6 @@ footer a {
 		padding: 0;
 		height: 60px;
 	}
-	
 	.belowNav {
 		margin-top: 50px;
 	}
