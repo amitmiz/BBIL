@@ -5,7 +5,6 @@
 <meta name="keywords" content="bubbleballisreal bubble ball isreal soccer football fun paintball">
 <meta name="description" content="bubble ball israel! כדורגל בועה">
 
-
 <!--Libs-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <link rel="stylesheet" href="animate.css">
@@ -17,3 +16,6 @@
 
 <!--Base css-->
 <link rel="stylesheet" href="base.css" />
+
+<!--Index js-->
+<script src="navbar.js"></script>

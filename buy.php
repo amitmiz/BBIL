@@ -4,11 +4,12 @@
 <head>
 	<?php include("head.php"); ?>
 		<link rel="stylesheet" href="buy.css" />
+		
 </head>
 
-<body>
+<body dir="rtl">
 	<?php include("navbar.php"); ?>
-		<div class="belowNav">
+		<div class="footerPadding belowNav">
 			<div id="buy" class="container">
 				<header>
 					<h1 class="heading">השכרה</h1>
@@ -16,7 +17,7 @@
 				</header>
 				<div class="row">
 					<div class="col-sm-6">
-						<form dir="rtl" method="post" action="mail.php">
+						<form  method="post" action="mail.php">
 							<div class="form-group">
 								<label>שם</label>
 								<input name="name" type="text" class="form-control" placeholder="הכנס שם" required>
@@ -37,19 +38,26 @@
 								<label>טלפון</label>
 								<input name="phone" type="tel" class="form-control" placeholder="הכנס טלפון" required maxlength="10" pattern="\d{7,10}">
 							</div>
-							<div class="form-group">
+							<div  class="form-group">
 								<label>מיקום האירוע</label>
-								<select name="location" class="form-control" required>
-									<option value="דשא">דשא</option>
-									<option value="דשא סינטטי">דשא סינטטי</option>
-									<option value="פרקט">פרקט</option>
-									<option value="אולם ספורט">אולם ספורט</option>
-								</select>
+								<div dir="ltr" class="input-group">
+									<span  class="input-group-addon">
+										<input  type="checkbox" name="alternativeLocation" id="alternativeLocation">
+									</span>
+									<select dir="rtl" name="location" id="location" class="form-control" disabled>
+										<option value="דשא">דשא</option>
+										<option value="דשא סינטטי">דשא סינטטי</option>
+										<option value="פרקט">פרקט</option>
+										<option value="אולם ספורט">אולם ספורט</option>
+									</select>
+
+								</div>
 							</div>
 							<div class="form-group">
 								<label>הערות</label>
-								<textarea name="more" class="form-control"></textarea>
+								<textarea name="more" placeholder="ציין מיקום במידה ויש ופרטי האירוע" class="form-control"></textarea>
 							</div>
+							
 							<button type="submit" class="btn btn-success">שלח</button>
 						</form>
 					</div>
@@ -72,8 +80,8 @@
 			</div>
 		</div>
 		<?php include("footer.php") ?>
-			<script src="navbar.js"></script>
-</body>
+		<script src="buy.js" ></script>
 
+</body>
 
 </html>

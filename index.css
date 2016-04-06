@@ -44,11 +44,12 @@
 #videoBuyButton {
 	color: white;
 	padding: 9px;
-	width: 19%;
+	width: 25%;
 	display: block;
 	margin: auto;
 	border-radius: 10px;
 	font-size: 20px;
+	font-size: 2vw;
 	background-color: #0066FF;
 }
 

@@ -96,11 +96,7 @@
 			</div>
 
 		</div>
-
-
-
 		<?php include("footer.php") ?>
-			<script src="navbar.js"></script>
 </body>
 
 </html>

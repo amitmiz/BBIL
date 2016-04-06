@@ -15,7 +15,6 @@
 		<li>מצא אותנו ב:</li>
 		<li><i class="fa fa-facebook"></i></li>
 		<li><i class="fa fa-instagram"></i></li>
-		<li><a href="tel:0543291899"><i class="fa fa-phone"></i></a></li>
 		<li><a href="mailto:israelbubbleball@gmail.com"><i class="fa fa-envelope"></i></a></li>
 
 	</ul>

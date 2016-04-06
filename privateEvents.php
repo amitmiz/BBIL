@@ -9,8 +9,10 @@
 <body dir="rtl">
 	<?php include("navbar.php");  ?>
 		<div class="container-fluid belowNav">
-
-			<h1 class="text-center">ארועים פרטיים</h1>
+			<header>
+				<h1 class="heading">אירועים פרטיים</h1>
+				<div class="line"></div>
+			</header>
 			<p><span>Bubble Ball Israel</span> מביאה איתה לא רק את חווית המשחק והכיף שבכדורים אלא יכולה לבנות עבורך את האירוע המושלם</p>
 
 			<div>
