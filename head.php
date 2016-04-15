@@ -1,4 +1,4 @@
-<title><?php if (isset($title)) echo $title; else echo "Israel Bubble Ball";?></title>
+<title><?php if (isset($title)) echo $title; else echo "Bubble Boom";?></title>
 <!--Meta info-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -10,31 +10,7 @@
 	<?php include("navbar.php") ?>
 		<div dir="rtl" class="container belowNav">
 			<div class="row">
-				<div class="col-sm-4">
-					<div id="basic" class="pricingCard">
-						<div class="pricingHour">Basic</div>
-						<div class="pricingPrice">
-							<span>1000&#8362;</span>
-							<div> 500&#8362; לשעה</div>
-						</div>
-						<div class="description">
-							<ul>
-								<li><strong>השכרה לשעתיים</strong></li>
-								<li>10 כדורים</li>
-								<li>2 שערים</li>
-								<li>2 כדורי כדוררגל</li>
-								<li>קונוסים</li>
-								<li>גופיות להבדלה בין הקבוצות</li>
 
-							</ul>
-
-						</div>
-						<div class="pricingBuy">
-							<a href="buy.php">להשכרה</a>
-						</div>
-					</div>
-
-				</div>
 				<div class="col-sm-4">
 					<div id="starter" class="pricingCard">
 						<div class="pricingHour">Starter</div>
@@ -57,6 +33,29 @@
 							<a href="buy.php">להשכרה</a>
 						</div>
 					</div>
+				</div>
+				<div class="col-sm-4">
+					<div id="basic" class="pricingCard">
+						<div class="pricingHour">Basic</div>
+						<div class="pricingPrice">
+							<span>1000&#8362;</span>
+						</div>
+						<div class="description">
+							<ul>
+								<li><strong>השכרה לשעתיים</strong></li>
+								<li>10 כדורים</li>
+								<li>2 שערים</li>
+								<li>2 כדורי כדוררגל</li>
+								<li>קונוסים</li>
+								<li>גופיות להבדלה בין הקבוצות</li>
+
+							</ul>
+
+						</div>
+						<div class="pricingBuy">
+							<a href="buy.php">להשכרה</a>
+						</div>
+					</div>
 
 				</div>
 				<div class="col-sm-4">
@@ -64,7 +63,6 @@
 						<div class="pricingHour">Pro</div>
 						<div class="pricingPrice">
 							<span>1300&#8362;</span>
-							<div> 433&#8362; לשעה</div>
 						</div>
 						<div class="description">
 							<ul>

@@ -1,7 +1,7 @@
 <?php 
 header('Content-Type: text/html; charset=utf-8');
 
-$to = "amitamitamit123@gmail.com";
+$to = "bubbleboomsoccer@gmail.com";
 
 $name = $_POST['name'];
 $city = $_POST['city'];

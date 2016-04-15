@@ -6,7 +6,7 @@
 					<h2>שירות לקוחות</h2></div>
 				<p><i class="fa fa-phone"></i><span>אור:</span><a href="tel:0543291899">0543291899</a></p>
 				<p><i class="fa fa-phone"></i><span>אלדר:</span><a href="tel:0504083884">0504083884</a></p>
-				<p><i class="fa fa-envelope"></i><span>אימייל:</span><a href="mailto:israelbubbleball@gmail.com">israelbubbleball@gmail.com</a></p>
+				<p><i class="fa fa-envelope"></i><a href="mailto:bubbleboomsoccer@gmail.com">bubbleboomsoccer@gmail.com</a></p>
 			</div>
 			<div class="col-md-4">
 				<a href="./policy.html"><h2>תקנון שימוש</h2></a>
@@ -25,5 +25,5 @@
 
 		</div>
 	</div>
-	<div id="copyright">Bubble Ball Israel&copy; 2016</div>
+	<div id="copyright">Bubble Boom&copy; 2016</div>
 </footer>

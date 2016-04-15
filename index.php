@@ -15,7 +15,7 @@
 					<source src="bubble.mp4" type="video/mp4">
 				</video>
 				<div dir="rtl" id="videoText">
-					<h1>Bubble Ball Israel</h1>
+					<h1>Bubble Boom</h1>
 					<p>
 						<h2>הדבר החדש שהולך לשגע אתכם ולהעיף אתכם באוויר!
 					<br>חוויה בלתי נשכחת שתשאיר לכם חיוך לאורך זמן!</h2>
@@ -34,10 +34,10 @@
 			<div id="about" class="block">
 				<div class="container"></div>
 				<div>
-					<a name="about"><h1 class="heading"><span class="hidden-xs">אודות</span><span class="visible-xs">Bubble Ball Israel</span></h1></a>
+					<a name="about"><h1 class="heading"><span class="hidden-xs">אודות</span><span class="visible-xs">Bubble Boom</span></h1></a>
 					<div class="line"></div>
 					<p>
-						היא החברה הראשונה המובילה שהביאה משחק כדורגל הבועה לישראל <span class="hidden-xs">Bubble Ball Israel</span>
+						היא החברה הראשונה המובילה שהביאה משחק כדורגל הבועה לישראל <span class="hidden-xs">Bubble Boom</span>
 					</p>
 				</div>
 				<div class="container">

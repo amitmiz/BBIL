@@ -4,7 +4,7 @@
 		<div class="toggleLine"></div>
 		<div class="toggleLine"></div>
 	</button>
-	<!--		<span id="logo" class="visible-xs-inline"><h4>Bubble Ball Israel</h4></span>-->
+
 	<ul id="navbarList" class="clearfix">
 		<li><a href="./index.php">דף הבית</a></li>
 		<li><a href="./pricing.php">מחירון</a></li>
