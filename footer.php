@@ -19,7 +19,6 @@
 					<li><a href="./index.php">דף הבית</a></li>
 					<li><a href="./pricing.php">מחירון</a></li>
 					<li><a href="./buy.php">השכרה</a></li>
-					<li><a href="./privateEvents.php">אירועים פרטיים</a></li>
 				</ul>
 			</div>
 

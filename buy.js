@@ -1,13 +1,9 @@
 $(document).ready(function(){
 	
-	var location = $("#location");
+	var submit = $("#submit");
 	
-	$("#alternativeLocation").change(function(){
-		if (this.checked) {
-			location.prop("disabled",false);
-		} else {
-			location.prop("disabled",true);
-		}
+	$("#policy").change(function(){
+		submit.prop('disabled', !this.checked);
 	})
 	
 })

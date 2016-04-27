@@ -3,6 +3,7 @@
 
 <head>
 	<?php include("head.php"); ?>
+
 		<link rel="stylesheet" href="index.css">
 </head>
 
@@ -15,7 +16,7 @@
 					<source src="bubble.mp4" type="video/mp4">
 				</video>
 				<div dir="rtl" id="videoText">
-					<h1>Bubble Boom</h1>
+					<div id="logo"><img src="logo.png"></div>
 					<p>
 						<h2>הדבר החדש שהולך לשגע אתכם ולהעיף אתכם באוויר!
 					<br>חוויה בלתי נשכחת שתשאיר לכם חיוך לאורך זמן!</h2>
@@ -37,7 +38,7 @@
 					<a name="about"><h1 class="heading"><span class="hidden-xs">אודות</span><span class="visible-xs">Bubble Boom</span></h1></a>
 					<div class="line"></div>
 					<p>
-						היא החברה הראשונה המובילה שהביאה משחק כדורגל הבועה לישראל <span class="hidden-xs">Bubble Boom</span>
+						<span class="hidden-xs">Bubble Boom (באבל בום)</span> היא החברה המובילה שהביאה את משחק <strong>כדור הבועה</strong> לישראל
 					</p>
 				</div>
 				<div class="container">
@@ -51,7 +52,7 @@
 							<p>ימי הולדת</p>
 						</div>
 						<div class="col-xs-6 col-sm-4 aboutThing">
-							<i class="fa fa-graduation-cap"></i>
+							<i class="fa fa-child" aria-hidden="true"></i>
 							<p>ארועי בית ספר</p>
 						</div>
 
@@ -79,11 +80,13 @@
 						</div>
 						<div style="padding-top:10%;" class="col-md-7 col-sm-7 ">
 							<div>
-								<h1 class="heading">המשחק</h1>
+								<h1 class="heading">על הכדור</h1>
 								<div class="line"></div>
 							</div>
 							<p>
-								כדור הבועה היא שינוי במסורת הכדורגל שמתפשטת באירופה ובעולם וכעת גם מגיעה לישראל!! כדור הבועה היא חווית כדורגל עצומה ומלאת אדרנלין שלא תוכל להפסיק לצחוק בגללה. למשחק חוקים פשוטים וקלים, זהים לזה של כדורגל למעט העובדה שאתה נמצא בתוך בועה גדולה מתנפחת שמכסה אותך ומגנה עליך. הקפיצות, ההתגלגלויות וההתנגשויות הן אלו שיגרמו לך לאושר ולצחוק בלתי פוסק עם שאר הצוות וכל זה בבטיחות מלאה! המשחק משוחק במגרש מסומן וכמובן המטרה היא להבקיע כמה שיותר שערים מבלי לספוג... מלבד ההתנגשויות והקפיצות במשחק ישנם המון חלקים טקטיים שכן חלק גדול מהמשחק הוא להיות יצירתי ולזהות איך לפצח את הגנת היריב... כמובן שבכדור קיימים שימושים נוספים כמו קרבות סומו, כולם על כולם(קבוצה של אנשים במגרש מסויים שהמטרה היא להעיף אחד את השני מהתחום המסומן),באולינג וכן, כל העולה ברוחכם... נציג מטעמנו ישגיח בכל משחק ויבטיח את ביטחונכם והפקת הנאה מקסימלית מהמשחק. מה שנותר לכם הוא רק להיכנס לבועה ולהנות.... אז קדימה!!!!
+								כדור הבועה הוא שינוי במסורת משחק הכדור שמתפשט באירופה ובעולם וכעת גם מגיע לישראל. כדור הבועה הוא חוויה עצומה מלאת אדרנלין שלא תוכלו להפסיק לצחוק בגללה. למשחק חוקים פשוטים וקלים. אתם נמצאים בתוך בועה גדולה מתנפחת שמכסה אתכם ומגנה עליכם. הקפיצות,ההתגלגלויות,וההתנגשויות הן אלה שיגרמו לך לאושר ולצחוק בלתי פוסק עם שאר הצוות וכל זה בבטיחות מלאה! לכדור הבועה שימושים מגוונים: משחק כדורגל,קרבות סומו,״החזק שורד״,באולינג וכל העולה בדמיונכם. נציג מטעמנו ישגיח בכל משחק ויבטיח את ביטחונכם. אנו מבטיחים לכם הנאה מקסימלית. מה שנותר לכם הוא רק להיכנס לבועה ולהנות...אז קדימה! הכנסו <strong><a href="buy.php">והזמינו</a></strong>
+
+
 							</p>
 						</div>
 					</div>
@@ -97,13 +100,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="question">
-							<h2>האם השמחק בטוח?</h2>
-							<p>המשחק הינו בטיחותי יותר ממשחקי כדור אחרים מכיוון שהמשתתף נמצא בתוך חליפת בועה שמכסה את גופו ומגנה עליו. יש לזכור שכמו בכל ענף ספורט קיימת האפשרות לפציעה אך כל משתתף מבוטח ונציג מטעמנו יוודא את ביטחונכם במהלך כל הפעילות</p>
+							<h2>האם המשחק בטוח?</h2>
+							<p>המשחק בטיחותי יותר ממשחקי כדור אחרים מכיוון שהמשתתף נמצא בתוך כדור בועה שמכסה את גופו ומגן עליו. נציג מטעמינו נמצא בזמן הפעילות ודואג לבטחונכם. כל משתתף מבוטח.</p>
 						</div>
 						<div class=" question">
 							<h2>מה צריך ללבוש?</h2>
-							<p>בגדי ספורט ,נעליים סגורות חובה</p>
-							<p> לא ניתן להיכנס לבועה עם תכשיטים(צמידים, שעונים, שרשראות וטבעות) וכן ג'ינסים
+							<p>בגדי ספורט(לא מכנסי ג׳ינס),נעליים סגורות חובה</p>
+							<p>לא ניתן להיכנס לבועה עם תכשיטים(צמידים,שעונים,שרשראות וטבעות)
 							</p>
 						</div>
 						<div class=" question">
@@ -111,8 +114,8 @@
 							<p>גברים ונשים כאחד</p>
 						</div>
 						<div class=" question">
-							<h2>מהי כמות השחקנים המינימאלית?</h2>
-							<p> 8 שחקנים לפחות </p>
+							<h2>מהי כמות האנשים המינימאלית?</h2>
+							<p> בכל סבב של פעילות, 8 אנשים לפחות </p>
 						</div>
 						<div class=" question">
 							<h2>איפה אפשר לשחק?</h2>
@@ -135,6 +138,7 @@
 				<a name="gallery" </a>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
+						<!--
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -142,6 +146,10 @@
 							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 						</ol>
+-->
+
+
+
 
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
@@ -149,22 +157,14 @@
 								<img src="1.jpg" alt="...">
 								<div class="carousel-caption"></div>
 							</div>
-							<div class="item">
-								<img src="2.jpg" alt="...">
-								<div class="carousel-caption"></div>
-							</div>
-							<div class="item">
-								<img src="3.jpg" alt="...">
-								<div class="carousel-caption"></div>
-							</div>
-							<div class="item">
-								<img src="4.jpg" alt="...">
-								<div class="carousel-caption"></div>
-							</div>
-							<div class="item">
-								<img src="5.jpg" alt="...">
-								<div class="carousel-caption"></div>
-							</div>
+							<?php 
+								foreach(glob("images/".'*') as $filename) : ?>
+								<div class="item">
+									<img src=<?php echo $filename ?> alt="...">
+									<div class="carousel-caption"></div>
+								</div>
+
+								<?php endforeach; ?>
 						</div>
 						<!-- Controls -->
 						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -182,4 +182,5 @@
 	</div>
 </body>
 <script src="index.js"></script>
+
 </html>

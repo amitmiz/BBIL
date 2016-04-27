@@ -4,6 +4,7 @@
 <head>
 	<?php include("head.php") ?>
 		<link rel="stylesheet" href="pricing.css">
+		<?php include_once("analyticstracking.php") ?>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 					<div id="starter" class="pricingCard">
 						<div class="pricingHour">Starter</div>
 						<div class="pricingPrice">
-							<span>600&#8362;</span>
+							<span>800&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
@@ -24,10 +25,8 @@
 								<li>2 שערים</li>
 								<li>2 כדורי כדוררגל</li>
 								<li>קונוסים</li>
-								<li>גופיות להבדלה בין הקבוצות</li>
-
+								<li>גופיות להבחנה בין הקבוצות</li>
 							</ul>
-
 						</div>
 						<div class="pricingBuy">
 							<a href="buy.php">להשכרה</a>
@@ -38,7 +37,7 @@
 					<div id="basic" class="pricingCard">
 						<div class="pricingHour">Basic</div>
 						<div class="pricingPrice">
-							<span>1000&#8362;</span>
+							<span>1400&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
@@ -47,7 +46,7 @@
 								<li>2 שערים</li>
 								<li>2 כדורי כדוררגל</li>
 								<li>קונוסים</li>
-								<li>גופיות להבדלה בין הקבוצות</li>
+								<li>גופיות להבחנה בין הקבוצות</li>
 
 							</ul>
 
@@ -62,7 +61,7 @@
 					<div id="pro" class="pricingCard">
 						<div class="pricingHour">Pro</div>
 						<div class="pricingPrice">
-							<span>1300&#8362;</span>
+							<span>1800&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
@@ -71,9 +70,8 @@
 								<li>2 שערים</li>
 								<li>2 כדורי כדוררגל</li>
 								<li>קונוסים</li>
-								<li>גופיות להבדלה בין הקבוצות</li>
+								<li>גופיות להבחנה בין הקבוצות</li>
 							</ul>
-
 						</div>
 						<div class="pricingBuy">
 							<a href="buy.php">להשכרה</a>
@@ -86,9 +84,9 @@
 				<h2>הערות:</h2>
 				<ul>
 					<li>המחירים כוללים מע"מ</li>
-					<li>המחירים נכונים למגרש הבית שלנו - "ספורט כיף ראשון לציון", מיקום אחר כרוך בתוספת תשלום</li>
+					<li style="font-weight: bolder;">המחירים נכונים למגרש הבית שלנו - "ספורט כיף ראשון לציון", מיקום אחר כרוך בתוספת תשלום</li>
 					<li>ההשכרה כוללת מפעיל מטעמנו שיוודא את ביטחונכם לאורך הפעילות</li>
-					<li>במידה ויש צורך להשכיר למספר שעות שלא באפשרויות המוצגות, נא ליצור קשר</li>
+					<li>יש אפשרות להשכיר למשך זמן רב יותר</li>
 					<li>ט.ל.ח</li>
 				</ul>
 			</div>
