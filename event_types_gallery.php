@@ -11,7 +11,7 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img src="1.jpg" alt="...">
+								<img src=<?php echo $_GET['type']."/cover.jpg" ?> alt="...">
 								<div class="carousel-caption"></div>
 							</div>
 							<?php
