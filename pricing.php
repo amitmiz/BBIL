@@ -16,7 +16,7 @@
 					<div id="starter" class="pricingCard">
 						<div class="pricingHour">Starter</div>
 						<div class="pricingPrice">
-							<span>800&#8362;</span>
+							<span>1200&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
@@ -37,7 +37,7 @@
 					<div id="basic" class="pricingCard">
 						<div class="pricingHour">Basic</div>
 						<div class="pricingPrice">
-							<span>1400&#8362;</span>
+							<span>1800&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>
@@ -61,7 +61,7 @@
 					<div id="pro" class="pricingCard">
 						<div class="pricingHour">Pro</div>
 						<div class="pricingPrice">
-							<span>1800&#8362;</span>
+							<span>2200&#8362;</span>
 						</div>
 						<div class="description">
 							<ul>

@@ -72,8 +72,7 @@
 						<div>
 							או שניתן ליצור קשר איתנו,
 							<ul>
-								<li><span>אור:</span><a href="tel:0543291899">0543291899</a></li>
-								<li><span>אלדר:</span><a href="tel:0504083884">0504083884</a></li>
+								<li><span>אור:</span><a href="tel:0543291899">0503996662</a></li>
 								<li>אימייל bubbleboomsoccer@gmail.com</li>
 							</ul>
 						</div>

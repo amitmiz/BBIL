@@ -6,9 +6,13 @@
 	</button>
 
 	<ul id="navbarList" class="clearfix">
+		<li><a href="./about.php">על הפעילות</a></li>
+		<li><a href="./event_types.php">סוגי אירועים</a></li>
 		<li><a href="./index.php">דף הבית</a></li>
 		<li><a href="./pricing.php">מחירון</a></li>
 		<li><a href="./buy.php">השכרה</a></li>
+		<li><a href="./videos.php">סרטונים</a></li>
+		<li><a href="./qna.php">שאלות ותשובות</a></li>
 	</ul>
 	<ul id="contactUsList">
 		<li>מצא אותנו ב:</li>

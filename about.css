@@ -1,0 +1,32 @@
+#gameInfo {
+	width: 100%;
+	color: black;
+	text-align: right;
+	font-size: 18px;
+	background: linear-gradient(to right, white, white, #FEFDFD, #D2D2D2)
+}
+
+#gameInfo img {
+	width: 100%;
+	float: left;
+}
+
+#gameInfo > p {
+	padding: 20px;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+	
+	#gameInfo {
+		text-align: center;
+	}
+	.heading {
+		font-size: 40px;
+	}
+	.block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}

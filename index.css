@@ -219,6 +219,10 @@ a.back-to-top {
 	text-decoration: none;
 }
 
+.linesClosed {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
 
 .carousel-control {
 	color: white!important;

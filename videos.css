@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 768px) {
+#vidoes {
+	width:70%;
+    margin: 50px auto;
+
+}
+
+#vidoes iframe {
+width:200px
+
+
+}
+	
+}

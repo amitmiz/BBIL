@@ -4,8 +4,7 @@
 			<div class="col-md-4">
 				<div>
 					<h2>שירות לקוחות</h2></div>
-				<p><i class="fa fa-phone"></i><span>אור:</span><a href="tel:0543291899">0543291899</a></p>
-				<p><i class="fa fa-phone"></i><span>אלדר:</span><a href="tel:0504083884">0504083884</a></p>
+				<p><i class="fa fa-phone"></i><span>אלדר/אור:</span><a href="tel:0543291899">0503996662</a></p>
 				<p><i class="fa fa-envelope"></i><a href="mailto:bubbleboomsoccer@gmail.com">bubbleboomsoccer@gmail.com</a></p>
 			</div>
 			<div class="col-md-4">
